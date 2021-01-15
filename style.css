@@ -207,9 +207,12 @@ img {
 
 
     @media screen and (max-width: 600px) {
+      h1 {
+          margin-bottom: 3rem;
+      }
 
       .space-big {
-            padding-bottom: 6rem;
+            padding-bottom: 3rem;
         }
 
       .column {
