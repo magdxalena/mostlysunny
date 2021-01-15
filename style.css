@@ -1,0 +1,245 @@
+@font-face {
+    font-family:"Supernormal Regular";
+    src:url("fonts/Supernormal-Regular-4.woff2") format("woff2"),url("fonts/Supernormal-Regular-4.woff") format("woff"),url("fonts/Supernormal-Regular-4.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+
+:root {
+    --c-black: #000;
+    --c-white: #fff;
+    --c-info: #A6A6A6;
+    --c-link: #2E76F6;
+    --c-link-visited: #2156B7;
+    --c-line: 1px solid #A6A6A6;
+}
+
+    html { box-sizing: border-box }
+    *, *:before, *:after { box-sizing: inherit }
+    html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li { margin: 0; padding: 0 }
+
+    html {
+        font-family: "Supernormal Regular", Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    body {
+        padding: 0;
+        background-color: var(--c-white);
+
+    }
+
+    h1 {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        font-weight: normal;
+        position: fixed;
+    }
+
+    h2 {
+        font-size: 1rem;
+        font-weight: normal;
+        line-height: 1.4rem;
+    }
+
+    .space {
+        padding-bottom: 1rem;
+    }
+
+    .big-space {
+        padding-bottom: 3rem;
+    }
+
+    .info {
+        color: var(--c-info);
+      }
+
+    .line {
+        padding-bottom: 0.5rem;
+        border-bottom: var(--c-line);
+      }
+
+
+    p {
+        font-size: 0.8rem;
+        line-height: 1.1rem;
+    }
+
+    a {
+        font-size: inherit;
+        color: var(--c-link);
+        text-decoration: none;
+    }
+
+  /* a:visited {
+        color: var(--c-link-visited);
+    } */
+
+    a:hover {
+        color: var(--c-link);
+        text-decoration: underline;
+    }
+
+    .button-blue {
+        font-size: inherit;
+        border: none;
+        background-color: var(--c-light-blue);
+        border: 1px solid var(--c-light-blue);
+        color: var(--c-white);
+        padding: 0.25rem 0.5rem;
+        border-radius: 4px;
+        float: right;
+        display: block;
+    }
+
+    .button-blue:hover {
+        background-color: var(--c-dark-blue);
+        border: 1px solid var(--c-dark-blue);
+        transition: 0.15s;
+        cursor: pointer;
+    }
+
+
+
+time {
+    padding-right: 5rem;
+}
+
+img {
+    padding-top: 3rem;
+    width: 100%;
+}
+
+
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 50%;
+  padding-right: 2rem;
+}
+
+.right {
+  width: 50%;
+  padding-left: 2rem
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.first-child {
+    cursor: pointer;
+    border-top: 1px solid var(--c-black);
+}
+
+    .header {
+        padding: 8rem 3rem 3rem 3rem;
+    }
+
+    .entry-list {
+        padding: 0 2rem;
+    }
+
+    .space-up {
+        padding: 2rem;
+    }
+
+    .accordion {
+      background-color: var(--c-white);
+      border-top: 1px solid var(--c-dark-gray);
+      transition: 0.4s;
+    }
+
+    .accordion:hover {
+      background-color: var(--c-light-gray);
+    }
+
+    /* Container needed to position the overlay. Adjust the width as needed */
+    .container {
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2rem;
+      margin-bottom: 5rem;
+      float: center;
+    }
+
+    /* Make the image to responsive */
+    .image {
+      width: 100%;
+      height: auto;
+    }
+
+    /* The overlay effect (full height and width) - lays on top of the container and over the image */
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .3s ease;
+    }
+
+    /* When you mouse over the container, fade in the overlay icon*/
+    .container:hover .overlay {
+      opacity: 1;
+    }
+
+    /* The icon inside the overlay is positioned in the middle vertically and horizontally */
+    .hover1 {
+      position: absolute;
+      width: 30%;
+      height: auto;
+      top: 40%;
+      left: 20%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+
+    .hover2 {
+      position: absolute;
+      width: 30%;
+      height: auto;
+      top: 60%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+
+    .hover3 {
+      position: absolute;
+      width: 30%;
+      height: auto;
+      top: 60%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+
+    /* When you move the mouse over the icon, change color */
+    .fa-user:hover {
+      color: #eee;
+    }
+
+
+    @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      padding: 0;
+    }
+
+    .header {
+        padding: 8rem 1rem 1rem 1rem;
+    }
+
+  }
