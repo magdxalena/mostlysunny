@@ -64,7 +64,7 @@
   <p class="info">PODA, fashion logo for <a href="https://www.instagram.com/p0daa/">Albert Poda</a>, inspired by tribal aesthetics and his tatoos, Berlin 2020</p>
 </div>
 
-<div class="container">
+<div class="slideshow">
 <img src="./photo/poda.png" alt="poda" class="image">
 <!--
   <div class="overlay">
@@ -78,33 +78,52 @@
   <p class="info">EXOT, type for musical composition for acoustic instruments and voice by <a href="https://www.instagram.com/dominik_gajarsky/">Dominik Gajarský</a>, inspired by greek alphabet, Prague 2020</p>
 </div>
 
-<div class="container">
-  <img src="./photo/exot.png" alt="poda" class="image">
-  <!--
-  <div class="overlay">
-    <video width="30%" height="auto" class="hover3" controls>
-  <source src="./photo/exot.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-    <img src="./photo/exot1.png" alt="poda" class="hover1">
-    <img src="./photo/exot2.jpg" alt="poda" class="hover2">
+<div class="slideshow">
+  <button class="w3-display-left arrow-left" onclick="plusDivs(-1)">‹</button>
 
-      <img class="fa fa-user"></img>-->
+  <img class="mySlides image-following" src="./photo/exot.png" alt="poda" >
+  <img class="mySlides image-following" src="./photo/exot1.png" alt="poda" >
+  <img class="mySlides image-following" src="./photo/exot2.jpg" alt="poda" >
+
+  <button class="w3-display-right arrow-right" onclick="plusDivs(+1)">›</button>
+
   </div>
+
   <div class="line">
     <p class="info">Planaria, type for piano part of the musical composition with footage and video made with iphone in quarantine of <a href="https://li.sten.to/8CInTdT">Slowmotiondancer</a>, inspired by Art Nouveau type, Prague 2020</p>
   </div>
-  <div class="container">
+  <div class="slideshow">
     <img src="./photo/planaria.png" alt="poda" class="image">
   </div>
 
   <div class="line">
     <p class="info">NSZ, visual identity for the <a href="https://verejnazaloba.cz/nsz/">Supreme Prosecutor's Office of the Czech Republic</a>, created with Šimon Bařák and Jakub Polách, Brno 2017</p>
   </div>
-  <div class="container">
+  <div class="slideshow">
     <img src="./photo/NSZ.png" alt="poda" class="image">
   </div>
 
   </div>
+
+  <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
 </body>
 </html>
