@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>(mostly) sunny</title>
-
-    <meta name="description" content="(mostly) sunny">
-
+      <meta name="description" content="(mostly) sunny">
   <link rel="stylesheet" href="./style.css">
 
   </head>
@@ -36,17 +36,20 @@
       <div class="column right">
 
         <p class="space">ToS [Terms of Service] 2021</p>
-        <p>I involve people in my creative process, so we create together</p>
-        <p>I don't support any form of oppression (as racism, xenophobia, or sexism)</p>
-        <p>I don't support any form of user manipulation (as marketing strategies or dark UX practices)</p>
-        <p class="space space-big">I am open to exchanging my work for another service</p>
+
+        <p>When I work for somebody, we actually work together</p>
+        <p>I don't care about my authorship much; I jut try to help</p>
+        <p>I don't really follow any trends, more personal vibe</p>
+        <p>I don't support any form of oppression or user manipulation</p>
+        <p>I set the price based on the current situation of the person</p>
+        <p class="space space-big">I am open to exchange my help for another service</p>
         <p class="space">Education</p>
         <p>2016–2020: BCA. — Faculty of Fine Arts BUT, Graphic Design Studio 1</p>
         <p>2019: Erasmum — Iceland University of the Arts, Visual Communication</p>
         <p class="space">2018: Internship — Academy of Performing Arts Prague, Temporary Arts</p>
 
         <p class="space">Internship</p>
-        <p>2020–2021: André Fincato</p>
+        <p>2020–2021: <a href="https://andrefincato.info">André Fincato</a></p>
         <p class="space">2018: <a href="https://kolektiv.studio">Kolektiv Studio</a></p>
         <p class="space">Summer school</p>
         <p>2018: <a href="https://www.captcha-mannheim.de/#/">CAPTCHA Mannheim</a>, <a href="https://www.praesensbuero.ch">Präsens Büro</a> editorial workshop</p>
@@ -57,55 +60,107 @@
 
     </header>
 
-    <div class="header">
+<div class="header">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 
-<div class="line">
-  <p class="info">PODA, fashion logo for <a href="https://www.instagram.com/p0daa/">Albert Poda</a>, inspired by tribal aesthetics and his tatoos, Berlin 2020</p>
-</div>
-
-<div class="slideshow">
-<img src="./photo/poda.png" alt="poda" class="image">
-<!--
-  <div class="overlay">
-    <img src="./photo/poda1.jpeg" alt="poda" class="hover1">
-    <img src="./photo/poda2.png" alt="poda" class="hover2">
-
-      <img class="fa fa-user"></img>-->
+  <div class="line">
+    <p class="info">PODA, fashion logo for <a href="https://www.instagram.com/p0daa/">Albert Poda</a>, inspired by tribal aesthetics and his tatoos, Berlin 2020</p>
   </div>
 
-<div class="line">
-  <p class="info">EXOT, type for musical composition for acoustic instruments and voice by <a href="https://www.instagram.com/dominik_gajarsky/">Dominik Gajarský</a>, inspired by greek alphabet, Prague 2020</p>
-</div>
+  <div class="w3-content slider" id="div1">
+    <a class="arrow arrow-left" onclick="plusDivs(this, -1)">◀</a>
+    <img class="mySlides" src="./photo/poda.png">
+    <img class="mySlides" src="./photo/poda1.jpeg">
+    <img class="mySlides" src="./photo/poda2.png">
+    <img class="mySlides" src="./photo/poda3.png">
+    <a class="arrow arrow-right" onclick="plusDivs(this, 1)">▶</a>
+  </div>
 
-<div class="slideshow">
-  <button class="w3-display-left arrow-left" onclick="plusDivs(-1)">‹</button>
+  <div class="line">
+    <p class="info">EXOT, type for musical composition for acoustic instruments and voice by <a href="https://www.instagram.com/dominik_gajarsky/">Dominik Gajarský</a>, inspired by greek alphabet, Prague 2020</p>
+  </div>
 
-  <img class="mySlides image-following" src="./photo/exot.png" alt="poda" >
-  <img class="mySlides image-following" src="./photo/exot1.png" alt="poda" >
-  <img class="mySlides image-following" src="./photo/exot2.jpg" alt="poda" >
-
-  <button class="w3-display-right arrow-right" onclick="plusDivs(+1)">›</button>
-
+  <div class="w3-content slider" id="div2">
+    <a class="arrow arrow-left" onclick="plusDivs(this, -1)">◀</a>
+    <img class="mySlides" src="./photo/exot.png">
+    <img class="mySlides" src="./photo/exot1.png">
+    <video controls class="mySlides"><source  src="./photo/exot.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+    <a class="arrow arrow-right" onclick="plusDivs(this, 1)">▶</a>
   </div>
 
   <div class="line">
     <p class="info">Planaria, type for piano part of the musical composition with footage and video made with iphone in quarantine of <a href="https://li.sten.to/8CInTdT">Slowmotiondancer</a>, inspired by Art Nouveau type, Prague 2020</p>
   </div>
-  <div class="slideshow">
-    <img src="./photo/planaria.png" alt="poda" class="image">
+
+  <div class="w3-content slider" id="div3">
+    <a class="arrow arrow-left" onclick="plusDivs(this, -1)">◀</a>
+    <img class="mySlides" src="./photo/planaria.png">
+    <img class="mySlides" src="./photo/planaria1.png">
+    <video controls class="mySlides"><source  src="./photo/planaria.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+    <a class="arrow arrow-right" onclick="plusDivs(this, 1)">▶</a>
   </div>
 
   <div class="line">
-    <p class="info">NSZ, visual identity for the <a href="https://verejnazaloba.cz/nsz/">Supreme Prosecutor's Office of the Czech Republic</a>, created with Šimon Bařák and Jakub Polách, Brno 2017</p>
-  </div>
-  <div class="slideshow">
-    <img src="./photo/NSZ.png" alt="poda" class="image">
+    <p class="info">NSZ, visual identity for the Supreme Prosecutor's Office of the Czech Republic, created with Šimon Bařák and Jakub Polách, Brno 2017</p>
   </div>
 
+  <div class="w3-content slider" id="div4">
+    <a class="arrow arrow-left" onclick="plusDivs(this, -1)">◀</a>
+    <img class="mySlides" src="./photo/nsz.png">
+    <a class="arrow arrow-right" onclick="plusDivs(this, 1)">▶</a>
   </div>
 
-  <script>
+
+<script type="text/javascript">
+
+var sliderObjects = [];
+createSliderObjects();
+
+function plusDivs(obj, n) {
+  var parentDiv = $(obj).parent();
+  var matchedDiv;
+  $.each(sliderObjects, function(i, item) {
+    if ($(parentDiv[0]).attr('id') == $(item).attr('id')) {
+      matchedDiv = item;
+      return false;
+    }
+  });
+  matchedDiv.slideIndex=matchedDiv.slideIndex+n;
+  showDivs(matchedDiv, matchedDiv.slideIndex);
+}
+
+function createSliderObjects() {
+  var sliderDivs = $('.slider');
+  $.each(sliderDivs, function(i, item) {
+    var obj = {};
+    obj.id = $(item).attr('id');
+    obj.divContent = item;
+    obj.slideIndex = 1;
+    obj.slideContents = $(item).find('.mySlides');
+    showDivs(obj, 1);
+    sliderObjects.push(obj);
+  });
+}
+
+function showDivs(divObject, n) {
+  debugger;
+  var i;
+  if (n > divObject.slideContents.length) {
+    divObject.slideIndex = 1
+  }
+  if (n < 1) {
+    divObject.slideIndex = divObject.slideContents.length
+  }
+  for (i = 0; i < divObject.slideContents.length; i++) {
+    divObject.slideContents[i].style.display = "none";
+  }
+  divObject.slideContents[divObject.slideIndex - 1].style.display = "block";
+}
+
+</script>
+<!--<script>
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -116,14 +171,15 @@ function plusDivs(n) {
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
+  if (n > x.length) {slideIndex = 1 slideIndex2 = 1}
+  if (n < 1) {slideIndex = x.length slideIndex2 = x.length}
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
   x[slideIndex-1].style.display = "block";
 }
-</script>
+</script> -->
+
 
 </body>
 </html>
