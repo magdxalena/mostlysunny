@@ -207,12 +207,12 @@
 
       .profile {
         max-width: 100%;
-        padding-bottom: 3rem;
+        max-height: none;
+        padding-bottom: 3rem
       }
 
       img {
         max-height: 20rem;
-        max-height: none;
         max-width: 80%;
 
       }
