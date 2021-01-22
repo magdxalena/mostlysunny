@@ -212,6 +212,7 @@
 
       img {
         max-height: 20rem;
+        max-height: none;
         max-width: 80%;
 
       }
