@@ -53,6 +53,11 @@
         border-bottom: var(--c-line);
       }
 
+    .singleimage {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
 
     p {
         font-size: 0.8rem;
@@ -177,6 +182,8 @@
     .arrow-left {
       margin-right: auto;
    }
+
+
 
 
 
