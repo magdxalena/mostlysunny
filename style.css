@@ -24,7 +24,7 @@
     }
 
     body {
-        padding: 0;
+        padding-bottom: : 3rem;
         background-color: var(--c-white);
     }
 
@@ -182,6 +182,13 @@
     .arrow-left {
       margin-right: auto;
    }
+
+
+   .end {
+     color: var(--c-info);
+     margin-left: auto;
+     margin-right: auto;
+  }
 
 
 
