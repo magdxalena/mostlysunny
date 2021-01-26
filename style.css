@@ -152,9 +152,7 @@
       margin-left: auto;
       margin-right: auto;
       height: auto;
-      max-height: 50rem;
-      width: auto;
-      max-width: 100%;
+      width: 100%;
     }
 
     button {
@@ -180,10 +178,12 @@
     .arrow-right {
       right: 0;
       margin-right: 1rem;
+      padding-left: 50%;
     }
 
     .arrow-left {
       margin-left: 1rem;
+      padding-right: 50%;
    }
 
 
@@ -191,6 +191,8 @@
      color: var(--c-info);
      text-align: center;
      padding-top: 3rem;
+     padding-bottom: 3rem;
+
   }
 
 
@@ -233,10 +235,6 @@
       }
 
       img {
-        max-height: 20rem;
-      }
-
-      video {
         max-height: 20rem;
       }
 
