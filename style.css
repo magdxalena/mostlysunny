@@ -234,9 +234,21 @@
         top: 45%;
       }
 
+      .arrow-right {
+        margin-right: 0.5rem;
+      }
+
+      .arrow-left {
+        margin-left: 0.5rem;
+      }
+
       img {
         max-height: 20rem;
       }
+
+      .line {
+          margin: 0rem 1rem 0rem 1rem;
+        }
 
 
   }
