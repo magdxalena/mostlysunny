@@ -252,5 +252,10 @@
           margin: 0rem 1rem 0rem 1rem;
         }
 
+      .end {
+          padding-bottom: 0rem;
+       }
+
+
 
   }
