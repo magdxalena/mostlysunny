@@ -174,12 +174,12 @@
 
     .arrow-left:hover {
       text-decoration: none;
-      cursor: url("https://michalveltrusky.com/wp-content/uploads/next-3.svg") 25.5 9.5, e-resize;
+      cursor: url('https://mostlysunny.energy/photo/left.png') 100 100, w-resize;
     }
 
     .arrow-right:hover {
       text-decoration: none;
-      cursor: url("https://michalveltrusky.com/wp-content/uploads/previous.svg") 43 9.5, w-resize;
+      cursor: url("right.svg") 100 100, e-resize;
     }
 
     .arrow-right {
