@@ -229,6 +229,8 @@
       }
 
       .slider {
+        margin-top: 1rem;
+        margin-bottom: 4rem;
         max-height: 20rem;
       }
 
