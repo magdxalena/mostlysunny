@@ -184,12 +184,16 @@
 
     .arrow-right {
       right: 0;
-      margin-right: 1rem;
+      outline: 0;
+      border: none;
+      -moz-outline-style: none;
     }
 
     .arrow-left {
       left: 0;
-      margin-left: 1rem;
+      outline: 0;
+      border: none;
+      -moz-outline-style: none;
    }
 
 
@@ -234,20 +238,6 @@
         max-width: 100%;
         max-height: none;
         padding-bottom: 3rem
-      }
-
-      .arrow {
-        top: 45%;
-      }
-
-      .arrow-right {
-        margin-right: 0.5rem;
-        padding-left: 0;
-      }
-
-      .arrow-left {
-        margin-left: 0.5rem;
-        padding-right: 0;
       }
 
       img {
